@@ -69,3 +69,190 @@
             </div>
         </div>
     </section>
+
+                                <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose <span class="gradient-text">TALK AI</span>?</h2>
+                <p>Enterprise-grade voice AI that delivers results from day one</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤖</div>
+                    <h3>24/7 AI Agents</h3>
+                    <p>Never miss a call again. Our AI agents work around the clock to handle customer inquiries, book appointments, and close deals.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Multi-Language Support</h3>
+                    <p>Communicate with customers in 50+ languages with perfect accent and natural conversation flow.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Sub-500ms response time ensures natural, real-time conversations that feel completely human.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔌</div>
+                    <h3>API Integration</h3>
+                    <p>Seamlessly connect with your CRM, calendar, and business tools. Deploy in minutes, not months.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h3>Real-Time Analytics</h3>
+                    <p>Track performance, conversion rates, and customer satisfaction with powerful dashboards.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Enterprise Security</h3>
+                    <p>Bank-level encryption and GDPR compliance to keep your customer data safe.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2>Simple, <span class="gradient-text">Transparent</span> Pricing</h2>
+                <p>Start free, scale as you grow. No hidden fees. Cancel anytime.</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <div class="price">
+                        <span class="amount">$99</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="features-list">
+                        <li>✓ 1,000 minutes/month</li>
+                        <li>✓ 1 AI agent</li>
+                        <li>✓ Basic analytics</li>
+                        <li>✓ Email support</li>
+                        <li>✓ API access</li>
+                    </ul>
+                    <a href="#signup" class="btn-secondary">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="badge">Most Popular</div>
+                    <h3>Professional</h3>
+                    <div class="price">
+                        <span class="amount">$299</span>
+                        <span class="period">/month</span>
+                    </div>
+                    <ul class="features-list">
+                        <li>✓ 5,000 minutes/month</li>
+                        <li>✓ 5 AI agents</li>
+                        <li>✓ Advanced analytics</li>
+                        <li>✓ Priority support</li>
+                        <li>✓ Custom integrations</li>
+                        <li>✓ Multi-language support</li>
+                    </ul>
+                    <a href="#signup" class="btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <div class="price">
+                        <span class="amount">Custom</span>
+                    </div>
+                    <ul class="features-list">
+                        <li>✓ Unlimited minutes</li>
+                        <li>✓ Unlimited agents</li>
+                        <li>✓ White-label solution</li>
+                        <li>✓ Dedicated support</li>
+                        <li>✓ Custom AI training</li>
+                        <li>✓ SLA guarantee</li>
+                    </ul>
+                    <a href="#contact" class="btn-secondary">Contact Sales</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <div class="section-header">
+                <h2>Try <span class="gradient-text">Live Demo</span></h2>
+                <p>Experience the power of TALK AI. Click to start a conversation with our AI agent.</p>
+            </div>
+            <div class="demo-container">
+                <div class="demo-card">
+                    <div class="demo-icon">🎤</div>
+                    <h3>Talk to Our AI Agent</h3>
+                    <p>Experience a real conversation with our AI voice agent. Click the button below and ask anything!</p>
+                    <button id="startCallBtn" class="btn-primary">Start Conversation</button>
+                    <button id="endCallBtn" class="btn-secondary" style="display:none;">End Call</button>
+                    <div id="callStatus" class="call-status"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Signup Section -->
+    <section id="signup" class="signup">
+        <div class="container">
+            <div class="section-header">
+                <h2>Start Your <span class="gradient-text">Free Trial</span></h2>
+                <p>Join 10,000+ businesses using TALK AI. No credit card required.</p>
+            </div>
+            <div class="signup-container">
+                <form id="signupForm" class="signup-form">
+                    <input type="text" id="fullName" placeholder="Full Name" required>
+                    <input type="email" id="email" placeholder="Email Address" required>
+                    <input type="password" id="password" placeholder="Password" required>
+                    <input type="text" id="company" placeholder="Company Name" required>
+                    <button type="submit" class="btn-primary">Start Free Trial</button>
+                    <p class="form-note">By signing up, you agree to our Terms of Service and Privacy Policy.</p>
+                </form>
+                <div id="referralLink" class="referral-section" style="display:none;">
+                    <h3>Your Referral Link</h3>
+                    <p>Share this link and earn 30% commission on all referred customers!</p>
+                    <div class="referral-link-container">
+                        <input type="text" id="referralLinkInput" readonly>
+                        <button id="copyLinkBtn" class="btn-secondary">Copy Link</button>
+                    </div>
+                    <p class="commission-info">Commission Rate: <strong>30%</strong> of subscription cost</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in <span class="gradient-text">Touch</span></h2>
+                <p>Have questions? Our team is here to help you succeed.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <strong>📧 Email:</strong>
+                        <p>support@talkai.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📞 Phone:</strong>
+                        <p>+1 (555) 123-4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <strong>📍 Address:</strong>
+                        <p>123 AI Street, Tech Valley, CA 94025</p>
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
